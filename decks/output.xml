@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deck>
+  <card>
+    <Rank>Rank</Rank>
+    <Question>Question</Question>
+    <Answer>Answer</Answer>
+  </card>
+  <card>
+    <Rank>a</Rank>
+    <Question>b</Question>
+    <Answer>c</Answer>
+  </card>
+  <card>
+    <Rank>1</Rank>
+    <Question>2</Question>
+    <Answer>3</Answer>
+  </card>
+</deck>

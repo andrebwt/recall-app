@@ -5,11 +5,14 @@
 		<br><h2 align = "center">Upload a CSV File</h2><br>
 
 		<div align = "center">
-			<div style="display: inline-block; text-align: left">
+			<div style="display: inline-block; text-align: center">
 				<form enctype="multipart/form-data" action="../php/uploadCSV.php" method="POST">
-					Choose a file to upload: <input name="csv-file" type="file" /><br />
+					Please choose a file to upload: <br><br>
+					<input name="csv-file" type="file" /><br />
 					<br>
-					<input type="submit" value="Upload File" />
+						<div style="text-align:center">
+							<input type="submit" value="Upload File">
+						</div>
 				</form>
 			</div>
 		</div>

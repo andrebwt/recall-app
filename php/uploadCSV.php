@@ -1,11 +1,11 @@
 <?php
 
 // Upload file
-$target_path = "./uploads/";
+$target_path = "../uploads/";
 $target_path = $target_path . basename( $_FILES['csv-file']['name']);
 
 $inputFile = $_FILES['csv-file']['tmp_name'];
-$outputFilename   = './decks/output.xml';
+$outputFilename   = '../decks/output.xml';
 
 $tmp = fopen($_FILES['csv-file']['tmp_name'], 'rt');
 
@@ -59,7 +59,7 @@ echo "<br>" . "<br>";
 echo "<b>Uploaded files:</b>";
 echo "<br>";
 
-$files = scandir("./uploads/");
+$files = scandir("../uploads/");
 $ignore = array(".", "..");
 
 foreach ($files as $doc) {
@@ -71,5 +71,6 @@ foreach ($files as $doc) {
 ?>
 
 <br>
-<a href="./decks/output.xml">View xml</a><br>
-<a href="functionTesting.html">Return to Main Page</a>
+<a href="../decks/output.xml">View RAW xml</a><br>
+<a href="drawTable.php">View XML as a Table</a><br>
+<a href="../">Return to Main Page</a>
