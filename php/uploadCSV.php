@@ -73,4 +73,5 @@ foreach ($files as $doc) {
 <br>
 <a href="../decks/output.xml">View RAW xml</a><br>
 <a href="drawTable.php">View XML as a Table</a><br>
+<a href="drawConditionalTable.php">View XML as Conditional Table</a><br>
 <a href="../">Return to Main Page</a>
